@@ -1,211 +1,204 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2580
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww33400\viewh19880\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta Servicios | One Page</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts: Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 
-\f0\fs24 \cf0 <!DOCTYPE html>\
-<html lang="es">\
-<head>\
-    <meta charset="UTF-8">\
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
-    <title>Maqueta Servicios | One Page</title>\
-    \
-    <!-- Tailwind CSS -->\
-    <script src="https://cdn.tailwindcss.com"></script>\
-    \
-    <!-- FontAwesome Icons -->\
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">\
-    \
-    <!-- Google Fonts: Roboto -->\
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">\
-\
-    <script>\
-        tailwind.config = \{\
-            theme: \{\
-                extend: \{\
-                    colors: \{\
-                        'brand-primary': '#0f4c81',   /* Azul Corporativo */\
-                        'brand-accent': '#f57f17',    /* Naranja Acento */\
-                        'brand-whatsapp': '#25D366',  /* Verde WhatsApp Oficial */\
-                    \},\
-                    fontFamily: \{\
-                        sans: ['Roboto', 'sans-serif'],\
-                    \}\
-                \}\
-            \}\
-        \}\
-    </script>\
-\
-    <style>\
-        body \{\
-            background-color: #f0f2f5;\
-        \}\
-        .main-container \{\
-            box-shadow: 0 0 50px rgba(0,0,0,0.1);\
-        \}\
-        .hero-overlay \{\
-            background: linear-gradient(to bottom, rgba(15, 76, 129, 0.7), rgba(30, 41, 59, 0.6));\
-        \}\
-    </style>\
-</head>\
-<body class="text-gray-800 antialiased min-h-screen flex flex-col items-center py-0 md:py-6">\
-\
-    <!-- CONTENEDOR PRINCIPAL -->\
-    <main class="main-container w-full max-w-5xl bg-white min-h-screen flex flex-col relative md:rounded-xl overflow-hidden">\
-\
-        <!-- 1. HEADER -->\
-        <header class="bg-white py-3 px-5 md:px-8 flex justify-between items-center border-b-4 border-brand-accent sticky top-0 z-50 shadow-sm">\
-            <!-- Marca Neutra -->\
-            <div class="font-black text-3xl md:text-4xl tracking-tighter text-brand-primary uppercase">\
-                TU <span class="text-brand-accent">MARCA</span>\
-            </div>\
-            <!-- Bot\'f3n WhatsApp Header -->\
-            <a href="#" class="bg-brand-whatsapp hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow transition flex items-center transform active:scale-95">\
-                <i class="fab fa-whatsapp text-xl mr-2"></i> \
-                <span class="hidden md:inline">WHATSAPP</span>\
-                <span class="md:hidden">CHAT</span>\
-            </a>\
-        </header>\
-\
-        <!-- 2. HERO SECTION -->\
-        <section class="relative h-[30vh] min-h-[250px] flex items-center justify-center text-center px-4">\
-            <!-- Fondo Neutro -->\
-            <div class="absolute inset-0 bg-gray-800">\
-                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="w-full h-full object-cover opacity-40" alt="Fondo">\
-                <div class="absolute inset-0 hero-overlay"></div>\
-            </div>\
-            \
-            <div class="relative z-10 text-white w-full">\
-                <h1 class="text-4xl md:text-5xl font-black uppercase leading-none mb-2 drop-shadow-lg">\
-                    TITULO <span class="text-brand-accent">PRINCIPAL</span>\
-                </h1>\
-                <h2 class="text-lg md:text-2xl font-light uppercase tracking-widest text-gray-100">\
-                    Subt\'edtulo Descriptivo del Rubro\
-                </h2>\
-            </div>\
-        </section>\
-\
-        <!-- 3. BANDA DESTACADA -->\
-        <div class="bg-brand-accent text-white text-center py-4 shadow-md relative z-20">\
-            <h3 class="text-xl md:text-2xl font-black uppercase tracking-wide">\
-                FRASE GANCHO / PRESUPUESTOS\
-            </h3>\
-        </div>\
-\
-        <!-- 4. GRILLA DE SERVICIOS (Botones Horizontales Compactos) -->\
-        <section class="py-8 px-4 bg-gray-50">\
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">\
-                \
-                <!-- Item 01 -->\
-                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">\
-                    <i class="fas fa-tools text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>\
-                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 01</span>\
-                </div>\
-\
-                <!-- Item 02 -->\
-                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-accent transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">\
-                    <i class="fas fa-hard-hat text-2xl text-brand-accent mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>\
-                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 02</span>\
-                </div>\
-\
-                <!-- Item 03 -->\
-                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-accent transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">\
-                    <i class="fas fa-plug text-2xl text-brand-accent mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>\
-                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 03</span>\
-                </div>\
-\
-                <!-- Item 04 -->\
-                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">\
-                    <i class="fas fa-hammer text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>\
-                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 04</span>\
-                </div>\
-\
-                <!-- Item 05 -->\
-                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">\
-                    <i class="fas fa-paint-roller text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>\
-                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 05</span>\
-                </div>\
-\
-                <!-- Item 06 -->\
-                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">\
-                    <i class="fas fa-wrench text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>\
-                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 06</span>\
-                </div>\
-\
-                <!-- Item 07 -->\
-                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">\
-                    <i class="fas fa-ruler-combined text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>\
-                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 07</span>\
-                </div>\
-\
-                <!-- Item 08 -->\
-                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-accent transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">\
-                    <i class="fas fa-layer-group text-2xl text-brand-accent mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>\
-                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 08</span>\
-                </div>\
-\
-                <!-- Item 09 -->\
-                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">\
-                    <i class="fas fa-brush text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>\
-                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 09</span>\
-                </div>\
-\
-            </div>\
-        </section>\
-\
-        <!-- 5. NUEVOS BOTONES DE ACCI\'d3N (Agendar / Chat / Personal) -->\
-        <section class="px-4 pb-8 flex-grow">\
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">\
-                \
-                <!-- Agendar Turno -->\
-                <a href="#" class="bg-brand-primary text-white p-4 rounded shadow-lg hover:bg-blue-900 transition flex items-center justify-center text-center">\
-                    <i class="far fa-calendar-alt text-2xl mr-3"></i>\
-                    <span class="font-bold uppercase tracking-wide">Agendar Turno</span>\
-                </a>\
-\
-                <!-- Chatbot -->\
-                <a href="#" class="bg-gray-700 text-white p-4 rounded shadow-lg hover:bg-gray-800 transition flex items-center justify-center text-center">\
-                    <i class="fas fa-robot text-2xl mr-3"></i>\
-                    <span class="font-bold uppercase tracking-wide">Chatbot</span>\
-                </a>\
-\
-                <!-- Atenci\'f3n Personal -->\
-                <a href="#" class="bg-brand-whatsapp text-white p-4 rounded shadow-lg hover:bg-green-700 transition flex items-center justify-center text-center">\
-                    <i class="fas fa-headset text-2xl mr-3"></i>\
-                    <span class="font-bold uppercase tracking-wide">Atenci\'f3n Personal</span>\
-                </a>\
-\
-            </div>\
-        </section>\
-\
-        <!-- 6. FOOTER INFORMATIVO (Distribuido) -->\
-        <footer class="bg-gray-900 text-gray-300 py-4 px-6 border-t-4 border-brand-accent mt-auto text-sm">\
-            <div class="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">\
-                \
-                <!-- Izquierda: Correo -->\
-                <div class="flex items-center hover:text-white transition cursor-pointer w-full md:w-1/3 justify-center md:justify-start">\
-                    <i class="far fa-envelope text-brand-accent mr-2 text-lg"></i>\
-                    <span>contacto@empresa.com</span>\
-                </div>\
-\
-                <!-- Centro: RRSS -->\
-                <div class="flex items-center justify-center gap-6 w-full md:w-1/3">\
-                    <a href="#" class="hover:text-brand-accent transition transform hover:scale-110"><i class="fab fa-instagram text-xl"></i></a>\
-                    <a href="#" class="hover:text-brand-accent transition transform hover:scale-110"><i class="fab fa-facebook text-xl"></i></a>\
-                    <a href="#" class="hover:text-brand-accent transition transform hover:scale-110"><i class="fab fa-linkedin text-xl"></i></a>\
-                </div>\
-\
-                <!-- Derecha: Tel\'e9fono (Texto) -->\
-                <div class="flex items-center hover:text-white transition cursor-pointer w-full md:w-1/3 justify-center md:justify-end">\
-                    <i class="fas fa-phone-alt text-brand-accent mr-2 text-lg"></i>\
-                    <span>+54 11 1234-5678</span>\
-                </div>\
-\
-            </div>\
-        </footer>\
-\
-    </main>\
-</body>\
-</html>}
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-primary': '#0f4c81',   /* Azul Corporativo */
+                        'brand-accent': '#f57f17',    /* Naranja Acento */
+                        'brand-whatsapp': '#25D366',  /* Verde WhatsApp Oficial */
+                    },
+                    fontFamily: {
+                        sans: ['Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #f0f2f5;
+        }
+        .main-container {
+            box-shadow: 0 0 50px rgba(0,0,0,0.1);
+        }
+        .hero-overlay {
+            background: linear-gradient(to bottom, rgba(15, 76, 129, 0.7), rgba(30, 41, 59, 0.6));
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased min-h-screen flex flex-col items-center py-0 md:py-6">
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="main-container w-full max-w-5xl bg-white min-h-screen flex flex-col relative md:rounded-xl overflow-hidden">
+
+        <!-- 1. HEADER -->
+        <header class="bg-white py-3 px-5 md:px-8 flex justify-between items-center border-b-4 border-brand-accent sticky top-0 z-50 shadow-sm">
+            <!-- Marca Neutra -->
+            <div class="font-black text-3xl md:text-4xl tracking-tighter text-brand-primary uppercase">
+                TU <span class="text-brand-accent">MARCA</span>
+            </div>
+            <!-- Botón WhatsApp Header -->
+            <a href="#" class="bg-brand-whatsapp hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow transition flex items-center transform active:scale-95">
+                <i class="fab fa-whatsapp text-xl mr-2"></i> 
+                <span class="hidden md:inline">WHATSAPP</span>
+                <span class="md:hidden">CHAT</span>
+            </a>
+        </header>
+
+        <!-- 2. HERO SECTION -->
+        <section class="relative h-[30vh] min-h-[250px] flex items-center justify-center text-center px-4">
+            <!-- Fondo Neutro -->
+            <div class="absolute inset-0 bg-gray-800">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="w-full h-full object-cover opacity-40" alt="Fondo">
+                <div class="absolute inset-0 hero-overlay"></div>
+            </div>
+            
+            <div class="relative z-10 text-white w-full">
+                <h1 class="text-4xl md:text-5xl font-black uppercase leading-none mb-2 drop-shadow-lg">
+                    TITULO <span class="text-brand-accent">PRINCIPAL</span>
+                </h1>
+                <h2 class="text-lg md:text-2xl font-light uppercase tracking-widest text-gray-100">
+                    Subtítulo Descriptivo del Rubro
+                </h2>
+            </div>
+        </section>
+
+        <!-- 3. BANDA DESTACADA -->
+        <div class="bg-brand-accent text-white text-center py-4 shadow-md relative z-20">
+            <h3 class="text-xl md:text-2xl font-black uppercase tracking-wide">
+                FRASE GANCHO / PRESUPUESTOS
+            </h3>
+        </div>
+
+        <!-- 4. GRILLA DE SERVICIOS (Botones Horizontales Compactos) -->
+        <section class="py-8 px-4 bg-gray-50">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                
+                <!-- Item 01 -->
+                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">
+                    <i class="fas fa-tools text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>
+                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 01</span>
+                </div>
+
+                <!-- Item 02 -->
+                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-accent transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">
+                    <i class="fas fa-hard-hat text-2xl text-brand-accent mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>
+                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 02</span>
+                </div>
+
+                <!-- Item 03 -->
+                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-accent transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">
+                    <i class="fas fa-plug text-2xl text-brand-accent mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>
+                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 03</span>
+                </div>
+
+                <!-- Item 04 -->
+                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">
+                    <i class="fas fa-hammer text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>
+                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 04</span>
+                </div>
+
+                <!-- Item 05 -->
+                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">
+                    <i class="fas fa-paint-roller text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>
+                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 05</span>
+                </div>
+
+                <!-- Item 06 -->
+                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">
+                    <i class="fas fa-wrench text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>
+                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 06</span>
+                </div>
+
+                <!-- Item 07 -->
+                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">
+                    <i class="fas fa-ruler-combined text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>
+                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 07</span>
+                </div>
+
+                <!-- Item 08 -->
+                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-accent transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">
+                    <i class="fas fa-layer-group text-2xl text-brand-accent mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>
+                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 08</span>
+                </div>
+
+                <!-- Item 09 -->
+                <div class="bg-white p-3 rounded border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-primary transition flex flex-row items-center justify-start cursor-pointer group h-16 px-6">
+                    <i class="fas fa-brush text-2xl text-brand-primary mr-4 group-hover:scale-110 transition-transform w-8 text-center"></i>
+                    <span class="font-bold text-sm md:text-base text-gray-700 uppercase">Servicio 09</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 5. NUEVOS BOTONES DE ACCIÓN (Agendar / Chat / Personal) -->
+        <section class="px-4 pb-8 flex-grow">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                
+                <!-- Agendar Turno -->
+                <a href="#" class="bg-brand-primary text-white p-4 rounded shadow-lg hover:bg-blue-900 transition flex items-center justify-center text-center">
+                    <i class="far fa-calendar-alt text-2xl mr-3"></i>
+                    <span class="font-bold uppercase tracking-wide">Agendar Turno</span>
+                </a>
+
+                <!-- Chatbot -->
+                <a href="#" class="bg-gray-700 text-white p-4 rounded shadow-lg hover:bg-gray-800 transition flex items-center justify-center text-center">
+                    <i class="fas fa-robot text-2xl mr-3"></i>
+                    <span class="font-bold uppercase tracking-wide">Chatbot</span>
+                </a>
+
+                <!-- Atención Personal -->
+                <a href="#" class="bg-brand-whatsapp text-white p-4 rounded shadow-lg hover:bg-green-700 transition flex items-center justify-center text-center">
+                    <i class="fas fa-headset text-2xl mr-3"></i>
+                    <span class="font-bold uppercase tracking-wide">Atención Personal</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- 6. FOOTER INFORMATIVO (Distribuido) -->
+        <footer class="bg-gray-900 text-gray-300 py-4 px-6 border-t-4 border-brand-accent mt-auto text-sm">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
+                
+                <!-- Izquierda: Correo -->
+                <div class="flex items-center hover:text-white transition cursor-pointer w-full md:w-1/3 justify-center md:justify-start">
+                    <i class="far fa-envelope text-brand-accent mr-2 text-lg"></i>
+                    <span>contacto@empresa.com</span>
+                </div>
+
+                <!-- Centro: RRSS -->
+                <div class="flex items-center justify-center gap-6 w-full md:w-1/3">
+                    <a href="#" class="hover:text-brand-accent transition transform hover:scale-110"><i class="fab fa-instagram text-xl"></i></a>
+                    <a href="#" class="hover:text-brand-accent transition transform hover:scale-110"><i class="fab fa-facebook text-xl"></i></a>
+                    <a href="#" class="hover:text-brand-accent transition transform hover:scale-110"><i class="fab fa-linkedin text-xl"></i></a>
+                </div>
+
+                <!-- Derecha: Teléfono (Texto) -->
+                <div class="flex items-center hover:text-white transition cursor-pointer w-full md:w-1/3 justify-center md:justify-end">
+                    <i class="fas fa-phone-alt text-brand-accent mr-2 text-lg"></i>
+                    <span>+54 11 1234-5678</span>
+                </div>
+
+            </div>
+        </footer>
+
+    </main>
+</body>
+</html>
